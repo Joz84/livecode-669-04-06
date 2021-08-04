@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
     //recuperer sur l'API avec email les infos que l'on veut display
     fetch(`https://person.clearbit.com/v1/people/email/${input.value}`, {
         headers: {
-          Authorization: 'Bearer sk_ebac5f9cf33d3f89d0c17d0c895b42ba'
+          Authorization: 'Bearer ???'
         }
       })
         .then(response => response.json())
